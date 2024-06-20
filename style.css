@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f4f6fa;
+    --purple: #a729f5;
+    --white: #fff;
+
+    --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+}
+
+body {
+    height: 100vh;
+    background: var(--bg-mobile) var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.tema {
+    padding: 05rem 0;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.tema img {
+    width: 1rem;
+}
+
+.tema button {
+    width: 2rem;
+    height: 1.25rem;
+    background: var(--purple);
+    border: none;
+    border-radius: 999px;
+    padding: .25rem;
+}
+
+.tema button div {
+    background: var(--white);
+    width: .75rem;
+    height: .75rem;
+    border-radius: 999px;
+}  
