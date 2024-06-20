@@ -145,8 +145,22 @@ main {
         margin-block: 5rem;
     }
 
-    .tema img {
+    .tema {
+        gap:1rem;
+    }
 
+    .tema img {
+        width: 1.5rem;
+    }
+
+    .tema button {
+        width: 3.5rem;
+        height: 1.75rem;
+    }
+
+    .tema button div {
+        width: 1.25rem;
+        height: 1.25rem;
     }
 
     main {
