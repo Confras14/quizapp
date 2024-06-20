@@ -104,10 +104,20 @@ main {
     padding: .75rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
 }
 
 .assuntos button div {
-    
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .3125rem;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;
 }
 
 .botao_html div{
